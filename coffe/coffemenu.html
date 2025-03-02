@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Coffee</title>
+    <link rel="icon" type="image/png" href="img/sig1.png">
+    </head>
+    <style>
+        /* Setează fundalul paginii */
+        body {
+           background-color:#96704f;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column; /* Pune elementele pe verticală */
+            justify-content: center; /* Centrează elementele pe verticală */
+            align-items: center; /* Centrează elementele pe orizontală */
+            min-height: 100vh; /* Asigură că întreaga pagină este utilizată */
+            margin: 0;
+        }
+
+        /* Stiluri pentru header (titlu) */
+        header {
+            background-color: beige;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: rgb(100, 57, 57);
+            font-weight: bold;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+            letter-spacing: 2px;
+            animation: valuri 3s ease-in-out infinite;
+        }
+
+        @keyframes valuri {
+            0%, 100% {
+                transform: scaleY(1);
+            }
+            25% {
+                transform: scaleY(1.2);
+            }
+            50% {
+                transform: scaleY(1);
+            }
+            75% {
+                transform: scaleY(0.8);
+            }
+        }
+
+        /* Cadranul cu produsul */
+        .cadran {
+            display: flex;
+            justify-content: center; /* Centrează produsul pe orizontală */
+            align-items: center; /* Centrează produsul pe verticală */
+            flex-direction: column; /* Pune imaginea și textul pe verticală */
+            background-color: rgba(190, 145, 90, 0.8);
+            border-radius: 15px;
+            width: 250px;
+            height: 370px;
+            margin: 20px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .cadran:hover {
+            transform: scale(1.05); /* Crește ușor dimensiunea cadranului la hover */
+            box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3); /* Adaugă umbră mai mare la hover */
+        }
+
+        .cadran p {
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Stiluri pentru imagine */
+        .imag img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Asigură că imaginea se potrivește bine în cadran */
+            transition: transform 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .imag img:hover {
+            transform: scale(1.1); /* Mărește imaginea la hover */
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Coffee Menu</h1>
+    </header>
+
+  <!-- Produs 1 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m1.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Cafea Espresso</strong></p>
+  
+    <p>Gramaj: 150 ml</p>
+    <p>Preț: 2.50€</p>
+</div>
+
+<!-- Produs 2 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m2.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Irish Coffee</strong></p>
+    
+    <p>Gramaj: 200 ml</p>
+    <p>Preț: 5.00€</p>
+</div>
+
+<!-- Produs 3 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m3.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Hot Chocolate</strong></p>
+   
+    <p>Gramaj: 250 ml</p>
+    <p>Preț: 3.00€</p>
+</div>
+
+<!-- Produs 4 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m3.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Hot Chocolate</strong></p>
+   
+    <p>Gramaj: 250 ml</p>
+    <p>Preț: 3.00€</p>
+</div>
+
+<!-- Produs 5 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m4.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Cappuccino Clasic</strong></p>
+   
+    <p>Gramaj: 200 ml</p>
+    <p>Preț: 3.50€</p>
+</div>
+
+<!-- Produs 6 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m5.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Oreo Cappuccino</strong></p>
+  
+    <p>Gramaj: 250 ml</p>
+    <p>Preț: 4.00€</p>
+</div>
+
+<!-- Produs 7 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m6.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Turkish Coffee</strong></p>
+   
+    <p>Gramaj: 100 ml</p>
+    <p>Preț: 2.80€</p>
+</div>
+
+<!-- Produs 8 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m8.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Cinnamon Latte</strong></p>
+   
+    <p>Gramaj: 250 ml</p>
+    <p>Preț: 3.70€</p>
+</div>
+
+<!-- Produs 9 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m7.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Caramel Ice Coffee</strong></p>
+   
+    <p>Gramaj: 300 ml</p>
+    <p>Preț: 4.20€</p>
+</div>
+
+<!-- Produs 10 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/m9.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Latte Macchiato</strong></p>
+  
+   <p> Gramaj: 250 ml</p>
+   <p>Preț: 3.60€</p>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Shots</title>
+    <link rel="icon" type="image/png" href="img/sig1.png">
+    </head>
+    <style>
+        /* Setează fundalul paginii */
+        body {
+           background-color:rgb(46, 4, 27);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column; /* Pune elementele pe verticală */
+            justify-content: center; /* Centrează elementele pe verticală */
+            align-items: center; /* Centrează elementele pe orizontală */
+            min-height: 100vh; /* Asigură că întreaga pagină este utilizată */
+            margin: 0;
+        }
+
+        /* Stiluri pentru header (titlu) */
+        header {
+            background-color: rgb(12, 12, 12);
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: rgb(175, 173, 173);
+            font-weight: bold;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+            letter-spacing: 2px;
+            animation: valuri 3s ease-in-out infinite;
+        }
+
+        @keyframes valuri {
+            0%, 100% {
+                transform: scaleY(1);
+            }
+            25% {
+                transform: scaleY(1.2);
+            }
+            50% {
+                transform: scaleY(1);
+            }
+            75% {
+                transform: scaleY(0.8);
+            }
+        }
+
+        /* Cadranul cu produsul */
+        .cadran {
+            display: flex;
+            justify-content: center; /* Centrează produsul pe orizontală */
+            align-items: center; /* Centrează produsul pe verticală */
+            flex-direction: column; /* Pune imaginea și textul pe verticală */
+            background-color: rgba(28, 12, 31, 0.897);
+            border-radius: 15px;
+            width: 250px;
+            height: 370px;
+            margin: 20px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .cadran:hover {
+            transform: scale(1.05); /* Crește ușor dimensiunea cadranului la hover */
+            box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3); /* Adaugă umbră mai mare la hover */
+        }
+
+        .cadran p {
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Stiluri pentru imagine */
+        .imag img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Asigură că imaginea se potrivește bine în cadran */
+            transition: transform 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .imag img:hover {
+            transform: scale(1.1); /* Mărește imaginea la hover */
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shots Menu</h1>
+    </header>
+
+  <!-- Produs 1 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/s1.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>B-52</strong></p>
+  
+    <p>Gramaj: 15 ml</p>
+    <p>Preț: 6.50€</p>
+</div>
+
+<!-- Produs 2 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/S2.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Raimbow Shot</strong></p>
+    
+    <p>Gramaj: 30 ml</p>
+    <p>Preț: 5.00€</p>
+</div>
+
+<!-- Produs 3 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/s3.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Snickers Shot</strong></p>
+   
+    <p>Gramaj: 25 ml</p>
+    <p>Preț: 3.00€</p>
+</div>
+
+<!-- Produs 4 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/s4.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Beach Shot</strong></p>
+   
+    <p>Gramaj: 25 ml</p>
+    <p>Preț: 9.00€</p>
+</div>
+
+<!-- Produs 5 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/s11.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Peddy Shot</strong></p>
+   
+    <p>Gramaj: 20 ml</p>
+    <p>Preț: 3.50€</p>
+</div>
+
+<!-- Produs 6 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/s12.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Pamella Shot</strong></p>
+  
+    <p>Gramaj: 25 ml</p>
+    <p>Preț: 4.00€</p>
+</div>
+
+<!-- Produs 7 -->
+<div class="cadran">
+    <div class="imag">
+        <img src="img/s13.jpg" alt="Coffee Product">
+    </div>
+    <p><strong>Fack Shot</strong></p>
+   
+    <p>Gramaj: 100ml</p>
+    <p>Preț: 12.80€</p>
+</div>
+
+
+</body>
+</html>

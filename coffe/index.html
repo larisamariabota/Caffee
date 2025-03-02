@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial scale=1.0">
+    <link rel="icon" type="image/png" href="img/sig1.png">
+    <title> Larimari Caffee</title>
+    </head>
+
+    <style>
+ body{
+    background-color:rgb(236, 207, 212);
+    justify-content: center;
+    flex-direction:column;
+    display:flex;
+
+
+ }
+  header{
+    display:flex;
+
+    justify-content:center;
+    text-align:center;
+    background-color:#c0907f;
+     height: 200px;
+     width:100%;
+     background-size: auto;}
+
+     header img{
+        height:200px;
+        width:500px;
+       
+    }
+     .menu-table{
+      width:210px;
+      height:50px;
+      margin:auto;
+      border-collapse:collapse;
+    background-color: #eeb9e5;
+    display:flex;
+    flex-direction:center;
+}
+
+
+     .menu-table a{
+        text-decoration:none;
+        font-weight:bold;
+          color:black;
+          text-align:center;
+          display:flex;
+          flex-direction:center;
+     }
+     .menu-table a:hover{
+        color:rgb(196, 24, 53);
+     
+    }
+  
+        /* Stil pentru galerie */
+        .gallery {
+            display: flex;           /* Folosim flexbox pentru alinierea pe linie */
+            justify-content: center; /* Centrează galeria pe orizontală */
+            gap: 16px;               /* Spațiu între imagini */
+            margin-top: 20px;
+            flex-wrap: nowrap;       /* Imaginile nu se înfășoară pe mai multe rânduri */
+        }
+
+        .gallery img {
+            width: 300px;            /* Lățimea imaginii */
+            height: 250px;           /* Înălțimea imaginii */
+            object-fit: cover;       /* Se ajustează pentru a acoperi complet containerul */
+            border-radius: 10px;     /* Colțuri rotunjite */
+            transition: transform 0.5s; /* Adăugăm tranziție pentru hover */
+        }
+        .gallery img:hover {
+            transform: scale(1.5); /* Mărește imaginea la hover */
+        }
+        .test{
+            font-family:'Courier New', Courier, monospace;
+            text-align: center;
+            color:#33062c;
+        }
+        footer {
+    background-color: #c0907f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+    </style>
+
+<body>
+    <header> 
+        <img  src="img/sig.jpg">
+        
+        
+        </header>
+    <table border="2">
+        
+        <tr class="menu-table" align="center">
+      <th><a href="coffemenu.html" target="_blank">Coffee</a></th>
+      <th><a href="matchamenu.html" target="_blank">Matcha</a></th>
+<th><a href="coc.html" target="_blank">Cocktail</a></th>
+<th><a href="shot.html" target="_blank"> Shots</a></th>
+</tr>
+    </table>
+    <div class="test">
+    <h1 >Location </h1>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
+        <a href="https://www.google.com/maps/place/617390+Roznov/@46.8364573,26.4848612,14z/data=!3m1!4b1!4m6!3m5!1s0x40b55674569b7041:0xf3a5f0f0b01af215!8m2!3d46.8380096!4d26.5074413!16s%2Fm%2F027jr6l?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+            <img src="img/loc.png" style="height: 60px; width: 60px;">
+        </a>
+    </div>
+    
+    
+    <div class="gallery">
+        <img src="img/f1.jpeg" >
+        <img src="img/f2.jpeg" >
+        <img src="img/f3.jpeg" >
+      
+        <!-- Adaugă mai multe imagini aici -->
+    </div>
+    <hr>
+    <div class="test">
+        <h2>Welcome to Larimari, the place where every drink is crafted with passion and dedication. Here, you won’t just enjoy innovative cocktails and fine beverages, but you’ll also experience a vibrant atmosphere, perfect for any time of the day. Whether you're looking for a refreshing drink on a hot summer day or a sophisticated cocktail for a special evening, Larimari has everything you need to satisfy your craving for new flavors.
+
+            We offer a diverse menu, featuring both classic bar cocktails and unique creations designed by top bartenders. Every visit to Larimari is an unforgettable experience, set in a modern ambiance with relaxing music and a friendly team ready to recommend the perfect drink tailored to your taste.
+            
+            Sit back, let yourself be carried away by the aromas, and discover a new dimension of the pleasure of savoring a drink. We look forward to welcoming you to Larimari, where every drink has its own story, and you are always at the center of attention!</h2>
+    </div>
+<hr>
+    <h2>Coffe</h2>
+    <a href="coffemenu.html" target="_blank">
+    <img src="img/C1.webp" style="height:350px;width:550px; border-radius:10px"></a>
+
+    <hr>
+    <h2>Matcha</h2>
+    <a href="matchamenu.html" target="_blank">
+        <img src="img/C2.webp" style="height:350px;width:550px; border-radius:10px">
+    </a>
+    <hr>
+<h2>Cocktail</h2>
+<a href="coc.html" target="_blank">
+        <img src="img/C3.webp" style="height:350px;width:550px; border-radius:10px">
+    </a>
+    <hr>
+    <h2>Shot</h2>
+    <a href="shot.html" target="_blank">
+        <img src="img/C4.jpg" style="height:350px;width:550px; border-radius:10px">
+    </a>
+    <hr>
+    <footer>
+        <p>&copy; 2025 Larimari. Toate drepturile rezervate.</p>
+        <p><a href="termeni.html">Termeni și condiții</a> | <a href="contact.html">Contact</a></p>
+        <div class="social-icons">
+            <a href="https://facebook.com"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://instagram.com"><img src="img/insta.jpg" alt="Instagram"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
