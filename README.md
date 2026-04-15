@@ -35,7 +35,6 @@
   <img src="foto/coc2.png" width="450" height="300"/>
 </p>
 
-##  Key Features
 
 ###  Multi-Category Digital Menu
 The website is structured into specialized sections, each with its own unique visual identity:
