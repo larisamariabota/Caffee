@@ -4,19 +4,36 @@
 
 ---
 
-##  Project Preview
+## Project Preview
 
 ### Home Page
-| ![Home Page](foto/main.png) 
-### Coffe Page 
-| ![Coffe Page](foto/coffe1.png) |![ ](foto/coffe2.png)
-### Matcha Page
-| ![Matcha Page](foto/macha1.png) |![ ](foto/matca2.png)
-### Shots Page
----![Shot Page](foto/shot.png)  |![ ](foto/shot1.png)
-### Cocktail Page
-![Cocktail Page](foto/coc1.png)  |![ ](foto/coc2.png)
+<p align="center">
+  <img src="foto/main.png" width="400"/>
+</p>
 
+### Coffee Page
+<p align="center">
+  <img src="foto/coffe1.png" width="300"/>
+  <img src="foto/coffe2.png" width="300"/>
+</p>
+
+### Matcha Page
+<p align="center">
+  <img src="foto/macha1.png" width="300"/>
+  <img src="foto/matca2.png" width="300"/>
+</p>
+
+### Shots Page
+<p align="center">
+  <img src="foto/shot.png" width="300"/>
+  <img src="foto/shot1.png" width="300"/>
+</p>
+
+### Cocktail Page
+<p align="center">
+  <img src="foto/coc1.png" width="300"/>
+  <img src="foto/coc2.png" width="300"/>
+</p>
 ##  Key Features
 
 ###  Multi-Category Digital Menu
