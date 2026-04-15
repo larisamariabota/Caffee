@@ -34,6 +34,7 @@
   <img src="foto/coc1.png" width="450" height="300"/>
   <img src="foto/coc2.png" width="450" height="300"/>
 </p>
+
 ##  Key Features
 
 ###  Multi-Category Digital Menu
