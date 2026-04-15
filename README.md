@@ -8,31 +8,31 @@
 
 ### Home Page
 <p align="center">
-  <img src="foto/main.png" width="400"/>
+  <img src="foto/main.png" width="700" height="400"/>
 </p>
 
 ### Coffee Page
 <p align="center">
-  <img src="foto/coffe1.png" width="300"/>
-  <img src="foto/coffe2.png" width="300"/>
+  <img src="foto/coffe1.png" width="450" height="300"/>
+  <img src="foto/coffe2.png" width="450"  height="300"/>
 </p>
 
 ### Matcha Page
 <p align="center">
-  <img src="foto/macha1.png" width="300"/>
-  <img src="foto/matca2.png" width="300"/>
+  <img src="foto/macha1.png" width="450"  height="300"/>
+  <img src="foto/matca2.png" width="450" height="300"/>
 </p>
 
 ### Shots Page
 <p align="center">
-  <img src="foto/shot.png" width="300"/>
-  <img src="foto/shot1.png" width="300"/>
+  <img src="foto/shot.png" width="450" height="300"/>
+  <img src="foto/shot1.png" width="450"  height="300"/>
 </p>
 
 ### Cocktail Page
 <p align="center">
-  <img src="foto/coc1.png" width="300"/>
-  <img src="foto/coc2.png" width="300"/>
+  <img src="foto/coc1.png" width="450" height="300"/>
+  <img src="foto/coc2.png" width="450" height="300"/>
 </p>
 ##  Key Features
 
